@@ -1,0 +1,126 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /*
+    border:1px solid yellow;
+    */
+    background-color:rgb(38, 6, 68);
+}
+
+.Title{
+    margin: 4vh;
+    color:whitesmoke;
+    font-size:40px;
+    font-weight: 900;
+    display:flex;
+    justify-content: center;
+    width:500px;
+    /*
+    border:1px solid black;
+    */
+}
+
+
+main{
+    background-color: whitesmoke;
+    display:flex;
+    align-self: center;
+    height:500px;
+    width:400px;
+    margin:8vh;
+    /*
+    border:1px solid black;
+    */
+}
+
+.Add_Nota{
+    padding:5px;
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: center;
+    /*
+    border:1px solid yellow;
+    */
+
+}
+
+.Add_Nota h3{
+
+    margin:10px;
+}
+
+.Add_Nota input{
+
+    margin:5px;
+}
+
+.Add_Nota #Nota-btn{
+    align-self: center;
+    width:90px;
+    height:30px;
+}
+
+.Logs-Container{
+
+    padding-top: 25px;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content: center;
+    height:60%;
+    /*
+    border:1px solid pink;
+    */
+}
+
+.Logs{
+
+    overflow-x: hidden;
+    overflow-y:scroll;
+    width:92%;
+    height:90%;
+    /* border necessario */
+    border:1px solid black;
+
+}
+
+.Mensagens h3{
+    height:20px;
+    margin:0 auto;
+    /*
+    border:1px solid black;
+    */
+    margin-top: 0px;
+    width:100%;
+}
+
+
+.Media-Container{
+
+    padding:5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    /*
+    border:1px solid purple;
+    */
+}
+
+.Media-Container button{
+
+    margin-top: 14px;
+    align-self: flex-start;
+    width:120px;
+    height:30px;
+}
+
+.Media-Container h3{
+
+    align-self: flex-start;
+    /*
+    border:1px solid black;
+    */
+    width:50%;
+
+}
